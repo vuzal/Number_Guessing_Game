@@ -3,5 +3,7 @@
 public class Main {
     public static void main(String[] args) {
 
+        NumberGuessingGame numberGuessingGame=new NumberGuessingGame(10);
+        numberGuessingGame.start();
     }
 }
